@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXAM-FEAR</title>
+<link rel="icon" type="image/x-icon" href="./logo.png">
+<style>
+    
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 5 columns */
+        grid-auto-rows: 100px; /* row height */
+        gap: 10px; /* gap between grid items */
+        padding: 20px; /* padding around the grid */
+    }
+    .grid-item {
+        background-color: #75acf5;
+        padding-top: 40px;
+        text-align: center;
+        border-radius: 15px;
+        border-left-style:  2px solid;
+
+    }
+
+    .grid-item:hover {
+        background-color: #2ef027;
+       cursor: pointer;
+      
+    }
+    
+    header {
+        background-color: black; /* Background color */
+        color: #dfffd8; /* Text color */
+        padding: 15px; /* Padding around the content */
+        text-align: center; /* Center align text */
+    }
+         
+    footer {background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 344px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .search-container {
+            position: relative;
+        }
+        .search-container input[type=text] {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 20px;
+            width: 250px;
+        }
+        .search-container button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 8px 15px;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .img{
+            width: 100px;
+            height: 100px;
+            margin-top: 25px;
+            padding-left: 240px;
+        }
+        @media screen and (max-width: 400px){
+            .ul{
+                display: inline;
+                flex: auto;
+            }
+        }
+        .ul:hover{
+            color: red;
+        }
+     
+        .animated-header {
+  background-color: black; /* Adjust background color */
+  color: #fff; /* Adjust text color */
+  text-align: center;
+  padding: 0.2px;
+  animation: headerAnimation 2s linear infinite; /* Adjust animation properties as needed */
+}
+
+@keyframes headerAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+} .get{
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.get:hover{
+    color: red;
+    cursor: pointer;
+}
+.animated-header:hover{
+    color: red;
+   cursor: pointer;
+
+}
+
+</style>
+</head>
+<body >
+    <header>
+      <h1 class="animated-header">EXAM-FEAR</h1>
+      <p class="animated-header">Don't fear the exam, make the exam fear you.</p>
+    </header>
+    <footer>
+        <div class="logo">  </div>
+        <nav>
+            <ul class="ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="www.9club.xyz">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <script>document.getElementById("search-container").addEventListener("click", function() {
+            var searchTerm = document.getElementById("searchInput").value;
+            // Perform search operation based on the searchTerm
+            alert("Searching for: " + searchTerm);
+        });
+        </script>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </footer>
+
+    <div class="grid-container">
+        <!-- admin password= stdonu101 -->
+       <div class="grid-item"> <a href="./b-of/Amity University, Haryana.html"  target="_blank" class="get">Amity University, Haryana</a></div>
+        <div class="grid-item"> <a href="./b-of/Apeejay Stya University.html" target="_blank" class="get">Apeejay Stya University</a></div>
+        <div class="grid-item"> <a href="./b-of/Ashoka University.html" target="_blank" class="get">Ashoka University</a></div>
+        <div class="grid-item"> <a href="./b-of/Baba Mast Nath University.html" target="_blank" class="get">Baba Mast Nath University</a></div>
+        <div class="grid-item" > <a href="./b-of/Al-Falah University.html" target="_blank" class="get">Al-Falah University</a></div>
+        <div class="grid-item"> <a href="./b-of/Bhagat Phool Singh Mahila.html" target="_blank" class="get">Bhagat Phool Singh Mahila Vishwavidyalaya</a></div>
+        <div class="grid-item"> <a href="./b-of/Bharti Vidyapeeth.html" target="_blank" class="get">Bharti Vidyapeeth, Sonipat Campus</a></div>
+        <div class="grid-item"> <a href="./b-of/BML Munjal University.html" target="_blank" class="get">BML Munjal University</a></div>
+        <div class="grid-item"> <a href="./b-of/CCS Haryana Agricultural.html" target="_blank" class="get">CCS Haryana Agricultural University</a></div>
+        <div class="grid-item"> <a href="./b-of/Central University of Haryan.html" target="_blank" class="get">Central University of Haryana</a></div>
+        <div class="grid-item"> <a href="./b-of/Chaudhary Bansi Lal University.html" target="_blank" class="get">Chaudhary Bansi Lal University</a></div>
+        <div class="grid-item"> <a href="./b-of/Chaudhary Devi Lal University.html" target="_blank" class="get">Chaudhary Devi Lal University</a></div>
+        <div class="grid-item"> <a href="./b-of/Chaudhary Ranbir Singh University.html" target="_blank" class="get">Chaudhary Ranbir Singh University</a></div>
+        <div class="grid-item"> <a href="./b-of/Deenbandhu Chhotu Ram University .html" target="_blank" class="get">Deenbandhu Chhotu Ram University of Science and Technology</a></div>
+        <div class="grid-item"> <a href="./b-of/Gurugram University.html" target="_blank" class="get">Gurugram University</a></div>
+        <div class="grid-item"> <a href="./b-of/GD Goenka University .html" target="_blank" class="get">GD Goenka University</a></div>
+        <div class="grid-item"> <a href="./b-of/Guru Jambheshwar University.html" target="_blank" class="get">Guru Jambheshwar University of Science and Technology</a></div>
+        <div class="grid-item"> <a href="./b-of/Haryana Institute of Civil Aviation .html" target="_blank" class="get">Haryana Institute of Civil Aviation</a></div>
+        <div class="grid-item"> <a href="./b-of/Haryana Vishwakarma Skill University.html" target="_blank" class="get">Haryana Vishwakarma Skill University</a></div>
+        <div class="grid-item"> <a href="./b-of/ICAR CIFE Rohtak .html" target="_blank" class="get">ICAR CIFE Rohtak (campus of Central Institute of Fisheries Education)</a> </div>
+        <div class="grid-item"> <a href="./b-of/IILM University .html" target="_blank" class="get">IILM University</a></div>
+        <div class="grid-item"> <a href="./b-of/Indian Institute of Information.html" target="_blank" class="get">Indian Institute of Information Technology</a></div>
+        <div class="grid-item"> <a href="./b-of/Indira Gandhi University.html" target="_blank" class="get">Indira Gandhi University Meerpur, Rewari</a></div>
+        <div class="grid-item"> <a href="./b-of/Indian Institute of Management.html" target="_blank" class="get">Indian Institute of Management</a></div>
+        <div class="grid-item"> <a href="./b-of/IIT Delhi, Sonipat Campus.html" target="_blank" class="get">IIT Delhi, Sonipat Campus</a></div>
+        <div class="grid-item"> <a href="./b-of/Indian National Defence University .html" target="_blank" class="get">Indian National Defence University</a></div>
+        <div class="grid-item"> <a href="./b-of/Jagannath University, Jhajjar.html" target="_blank" class="get">Jagannath University, Jhajjar</a></div>
+        <div class="grid-item"> <a href="./b-of/Shri Krishna AYUSH University .html" target="_blank" class="get">Shri Krishna AYUSH University</a></div>
+        <div class="grid-item"> <a href="./b-of/KR Mangalam University.html" target="_blank" class="get">KR Mangalam University</a></div>
+        <div class="grid-item"> <a href="b-of/Kurukshetra University.html" target="_blank" class="get">Kurukshetra University</a></div>
+        <div class="grid-item"> <a href="./b-of/Lala Lajpat Rai University .html" target="_blank" class="get">Lala Lajpat Rai University of Veterinary and Animal Sciences</a></div>
+        <div class="grid-item"> <a href="./b-of/Lingaya's University.html" target="_blank" class="get">Lingaya's University</a></div>
+        <div class="grid-item"> <a href="./b-of/Maharana Pratap Horticultural University.html" target="_blank" class="get">Maharana Pratap Horticultural University, Karnal</a></div>
+        <div class="grid-item"> <a href="./b-of/Maharishi Balmiki Sanskrit University.html" target="_blank" class="get">Maharishi Balmiki Sanskrit University, Kaithal</a></div>
+        <div class="grid-item"> <a href="./b-of/Maharshi Dayanand University.html" target="_blank" class="get">Maharshi Dayanand University</a></div>
+        <div class="grid-item"> <a href="./b-of/Maharishi Markandeshwar University.html" target="_blank" class="get">Maharishi Markandeshwar University, Mullana</a></div>
+        <div class="grid-item"> <a href="./b-of/Manav Rachna International Institute .html" target="_blank" class="get">Manav Rachna International Institute of Research and Studies</a></div>
+        <div class="grid-item"> <a href="./b-of/Manav Rachna University.html" target="_blank" class="get">Manav Rachna University</a></div>
+        <div class="grid-item"> <a href="./b-of/MVN University.html" target="_blank" class="get">MVN University</a></div>
+        <div class="grid-item"> <a href="./b-of/National Brain Research Centre.html" target="_blank" class="get">National Brain Research Centre</a></div>
+        <div class="grid-item"> <a href="./b-of/National Dairy Research Institute .html" target="_blank" class="get">National Dairy Research Institute</a></div>
+        <div class="grid-item"> <a href="./b-of/National Institute of Design, Kurukshet.html" target="_blank" class="get">National Institute of Design, Kurukshetra</a></div>
+        <div class="grid-item"> <a href="./b-of/National Institute of Food Technology .html" target="_blank" class="get">National Institute of Food Technology Entrepreneurship and Management</a></div>
+        <div class="grid-item"> <a href="./b-of/National Institute of Technology.html" target="_blank" class="get">National Institute of Technology</a></div>
+        <div class="grid-item"> <a href="./b-of/National Law University,.html" target="_blank" class="get">National Law University, Sonipat</a></div>
+        <div class="grid-item"> <a href="./b-of/National Institute of Fashion.html" target="_blank" class="get">National Institute of Fashion Technology</a></div>
+        <div class="grid-item"> <a href="./b-of/NIILM University .html" target="_blank" class="get">NIILM University</a></div>
+        <div class="grid-item"> <a href="./b-of/O. P. Jindal Global University .html" target="_blank" class="get">O. P. Jindal Global University</a></div>
+        <div class="grid-item"> <a href="./b-of/Om Sterling Global University.html" target="_blank" class="get">Om Sterling Global University</a></div>
+        <div class="grid-item"> <a href="./b-of/Pandit Bhagwat Dayal Sharma University of Health Sciences.html" target="_blank" class="get">Pandit Bhagwat Dayal Sharma University of Health Sciences</a></div>
+        <div class="grid-item"> <a href="./b-of/Pandit Deen Dayal Upadhayaya University of Health Sciences" target="_blank" class="get">Pandit Deen Dayal Upadhayaya University of Health Sciences</a></div>
+        <div class="grid-item"> <a href="./b-of/State University of Performing And.html" target="_blank" class="get">State University of Performing And Visual Arts</a></div>
+        <div class="grid-item"> <a href="./b-of/PDM University.html" target="_blank" class="get">PDM University</a></div>
+        <div class="grid-item"> <a href="./b-of/Rishihood University.html" target="_blank" class="get">Rishihood University</a></div>
+        <div class="grid-item"> <a href="./b-of/Shree Guru Gobind Singh .html" target="_blank" class="get">Shree Guru Gobind Singh Tricentenary University, Budhera</a> </div>
+        <div class="grid-item"> <a href="./b-of/Skyline Business School,.html" target="_blank" class="get">Skyline Business School, Sonipat  Campus</a></div>
+        <div class="grid-item"> <a href="./b-of/SRM University, Haryana.html" target="_blank" class="get">SRM University, Haryana</a></div>
+        <div class="grid-item"> <a href="./b-of/Starex University.html" target="_blank" class="get">Starex University</a></div>
+        <div class="grid-item"> <a href="./b-of/The NorthCap University.html" target="_blank" class="get">The NorthCap University</a></div>
+        <div class="grid-item">  <a href="./b-of/Geeta University  .html" target="_blank" class="get">Geeta University</a></div>
+        <div class="grid-item"> <a href="./b-of/YMCA University.html" target="_blank" class="get">YMCA University of Science and Technology</a></div>
+        <!-- Add more grid items as needed -->
+    </div>
+  
+
+   <span><img src="./kuk.png" alt="Net Ghna Bakwas se Tera" class="img"></span>
+   <span><img src="./haryana.png" alt="Net Ghna Bakwas se Tera" class="img"></span>
+   <span><img src="./shiv.png" alt="Net Ghna Bakwas se Tera" class="img"></span>
+
+
+    <div class="footer-bottom">
+        <br>
+        <hr>
+        &copy; 2024 Your Website. All Rights Reserved.
+    </div>
+</body>
+</html>
